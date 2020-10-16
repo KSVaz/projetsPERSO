@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /* background: linear-gradient(to top left, #D6A4A4, #DAE2F8) no-repeat; */
+    height: auto;
+    
+    /* background: linear-gradient(to top, #FFFFFF, #ECE9E6); */
+
+    background-color: #ECE9E6;
+
+
+}
+
+#container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* style du header  */
+
+header {
+    height: 200px;
+}
+
+/* menu burger  */
+/* header div {
+    
+    width: 30px;
+    height: 3px;
+    background-color: rgb(168, 162, 162);
+    margin: 6px 0;
+  } */
+
+
+.reseauxsociaux {
+    display: flex;
+    justify-content: right;
+    padding: 10px 15px;
+}
+
+.reseauxsociaux i {
+    padding: 5px;
+    color: rgb(52, 52, 52);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 80px;
+
+}
+
+nav {
+    /* width: 70%; */
+    /* border-top: 0.8px solid dimgray;
+    border-bottom: 1px solid dimgray; */
+    padding: 30px;
+
+    display: inline-block;
+    text-align: center;
+    width: 100%; 
+}
+
+/* pour les a de tout le document  */
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 20px
+    
+}
+
+nav a:hover {
+    color:#D6A4A4;
+}
+
+/* style de la section 1 */
+
+.look {
+    padding-top: 20px;
+    /* position: relative;
+    right: -80px; */
+}
+
+.look img {
+    max-width: 100%;
+}
+
+.section-1 .texte {
+    width: 700px;
+    height: 400px;
+    /* background-color:#DAE2F8; */
+    background-color: #D6A4A4;
+
+    padding: 80px 30px;
+
+    position: relative;
+    top: 30%;
+    left: -92px;
+}
+
+.texte h3 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.texte h3 span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.texte p {
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.fleche {
+    font-size: 1.7em;
+    text-align: right;
+    padding: 10px;
+}
+
+section a:hover {
+    font-weight: bold;
+}
+
+
+/* style de la section 2 */
+
+.beaute img {
+    max-width: 100%;
+}
+
+.texte2 {
+width: 700px;
+height: 400px;
+/* background-color:#DAE2F8; */
+background-color: #D6A4A4;
+
+padding: 80px 30px;
+
+position: relative;
+z-index: 2;
+top: 30%;
+}
+
+.texte2 h3 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.texte2 h3 span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.texte2 p {
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+/* style du footer  */
+
+footer {
+    height: 150px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 60px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+/* déclaration flex  */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+}
