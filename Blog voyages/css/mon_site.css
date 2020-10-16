@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/* reset simple  */
+/* l'étoile signifie tout, all */
+/* tous les éléments sont "taillés" de façon plus intuitive. ils conserveront la taille que nous leur donnons, même en ajoutant un padding */
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    /* background-image: url(../img/architecture-1850129_1920.jpg); */
+    background-color: rgb(46, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    /* min-height: 900px; */
+}
+
+.clear {
+    clear: both;
+}
+
+/* barre de navigation  */
+
+nav {
+    background-color: snow;
+    height: 50px;
+    margin: 0 auto;
+    width: 100%;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    float:left;
+    list-style-type: none;
+    margin: 10px 50px; 
+    text-align: center;
+    position: relative;
+    left: 190px;
+}
+
+nav ul li a {
+    text-decoration-line: none;
+    color: dimgray;
+    display: block;
+    padding: 6px;
+}
+
+a:hover {
+    background-color:silver;
+    color: snow;
+    transition: 1s;
+}
+
+.active {
+    background-color:silver;
+    color: snow;
+}
+
+/* home */
+
+#home {
+    background-image: url(../img/background-4210320_1280.jpg);
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#home div {
+    width: 300px;
+    height: 200px;
+    color: snow;
+    position: relative;
+    left: 740px;
+    top: 200px;
+}
+
+#home h2 {
+    font-size: 3em;
+}
+
+#home p {
+    line-height: 1.5em;
+}
+
+/* voyages  */
+
+#voyages {
+    margin: 0 auto;
+    width: 850px;
+    min-height: 900px;
+}
+
+#voyages h2 {
+    text-transform: uppercase;
+    color: snow;
+    font-size: 2em;
+}
+
+.nyc, .paris {
+    float: left;
+    width: 400px;
+    height: 400px;
+    /* background-color: snow; */
+    /* color: rgb(46, 45, 45);  */
+    color: snow;
+}
+
+#voyages h3 {
+    /* text-transform: uppercase; */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#voyages .img {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 5px;
+}
+
+#voyages img {
+    width: 400px;
+    height: 400px;
+}
+
+/* contact  */
+
+#contact {
+    margin: 0 auto;
+    width: 850px;
+    height: auto;
+}
+
+#contact h2 {
+    text-transform: uppercase;
+    color: snow;
+    font-size: 2em;
+    margin-bottom: 60px;
+}
+
+.adresse, iframe {
+    float: left;
+    width: 50%;
+}
+
+.adresse {
+    color: snow;
+}
+
+.adresse p:first-of-type {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* bas de page principale  */
+
+footer {
+    background-color: snow;
+    height: 40px;
+    color: dimgrey;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}

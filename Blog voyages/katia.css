@@ -1,0 +1,39 @@
+body {
+    background-color: orangered
+}
+.clear {
+    clear: both;
+}
+header {
+    background-color: orchid;
+    text-align: center;
+    color: white;
+}
+.z1 {
+    background-color: yellow;
+    text-align : center;
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.z2 {
+    background-color: violet;
+    text-align : center;
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.z3 {
+    background-color: blue;
+    text-align : center;
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.z4 {
+    background-color: purple;
+    text-align : center;
+    height: 50px;
+    width: 50px;
+    float:left;
+}
