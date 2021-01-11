@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(../images/bg-pattern-top.svg) no-repeat;
+    background-position-y: -450px;
+    background-position-x: -260px;
+    background-color: hsl(185, 75%, 39%);
+    
+}
+
+main {
+    background: url(../images/bg-pattern-bottom.svg) no-repeat;
+    background-position-y: 400px;
+    background-position-x: 700px;
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#card {
+    width: 350px;
+    height: 375px;
+    border-radius: 5%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* style du contenu de la carte */
+
+/* bandeau */
+
+header {
+    background: url(../images/bg-pattern-card.svg) no-repeat;
+    height: 130px;
+}
+
+/* photo de profil */
+
+#image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px;
+    margin: auto;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+    border: 5px solid white;
+}
+
+#image img {
+    width: auto;
+    height: 100%;
+    margin: auto;
+
+}
+
+/* flex */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 33.3333336%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* presentation */
+
+#presentation {
+    margin: auto;
+    text-align: center;
+    height: 150px;
+}
+
+#presentation div {
+    position: relative;
+    top: 50px;
+}
+
+.grey {
+    color: hsl(0, 0%, 59%);
+}
+
+#presentation p:first-child {
+    font-weight: bold;
+}
+
+#presentation p:last-child {
+    margin-top: 0;
+}
+
+#presentation span {
+    font-weight: normal;
+}
+
+/* infos */
+
+#infos {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    text-align: center;
+    padding: 10px;
+}
+
+#infos div p:first-child {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#infos div p:last-child {
+    font-size: smaller;
+}
+
+/* media queries */
+
+@media (max-width: 376px) {
+    
+    /* on ajoute un padding à la div container pour plus d'espace */
+    .container {
+        padding: 30px;
+    }
+
+    /* on change la position des bulles */
+    body {
+        background-position-x: -800px;
+        background-position-y: -500px;
+    }
+
+    main {
+        background-position-x: 160px;
+        background-position-y: 300px;
+    }
+    
+
+}
+
+@media (max-width: 1441px) {
+
+    body {
+        background-position-x: -300px;
+        background-position-y: -500px;
+    }
+
+    main {
+        background-position-x: 600px;
+        background-position-y: 400px;
+    }
+}
+
+
+
